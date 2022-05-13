@@ -1,0 +1,17 @@
+name: alpine
+distro: alpine
+publisher: Alpine Linux <https://alpinelinux.org>
+label: ALPINE_TEAISO
+application_id: Alpine Linux Live/Rescue Media
+#airootfs_directory: airootfs
+#iso_merge: iso_merge
+arch: x86_64
+compression: squashfs||-comp gzip
+grub_cfg: grub.cfg
+packages:
+ - packages.x86_64
+file_permissions:
+ - /etc/shadow|0:0:400
+linux_args: quiet
+customize_airootfs:
+ - customize-airootfs.sh
