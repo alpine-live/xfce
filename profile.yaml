@@ -1,6 +1,6 @@
 name: alpine
 distro: alpine
-codename: latest-stable
+codename: edge
 publisher: Alpine Linux <https://alpinelinux.org>
 label: ALPINE_TEAISO
 application_id: Alpine Linux Live/Rescue Media
