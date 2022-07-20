@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
+apk update
+apk upgrade
 setup-xorg-base || true
-apk add plasma kde-applications-base
+apk add nano firefox
+apk add plasma kde-applications-base networkmanager-wifi networkmanager-tui
 apk add elogind polkit-elogind dbus wpa_supplicant
 echo -e "live\nlive\n" | passwd root
 echo -e "live\nlive\n" | adduser user || true
