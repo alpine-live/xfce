@@ -16,3 +16,4 @@ file_permissions:
 linux_args: quiet
 customize_airootfs:
  - customize-airootfs.sh
+ - 17g.sh
