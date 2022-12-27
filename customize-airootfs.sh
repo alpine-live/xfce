@@ -13,3 +13,4 @@ rc-update add wpa_supplicant
 rc-update add lightdm
 rc-update add udev
 rc-update add elogind
+rm -f /etc/machine-id
