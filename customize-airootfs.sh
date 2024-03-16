@@ -10,7 +10,6 @@ apk add flatpak
 # flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 echo -e "live\nlive\n" | passwd root
-echo -e "live\nlive\n" | adduser user
 rc-update add dbus
 rc-update add networkmanager
 rc-update add wpa_supplicant
