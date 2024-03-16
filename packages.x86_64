@@ -1,6 +1,6 @@
 bash
 linux-edge
-linux-firmware-none
+linux-firmware
 grub
 grub-efi
 efibootmgr
